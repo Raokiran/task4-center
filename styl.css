@@ -20,8 +20,8 @@ color:white;
 }
 
 .ali{
-    height:900px;
-   align-items: center;
+    height:500px;
+   align-items: end;
   justify-content: center;
 display:flex;
 gap:60px;
@@ -31,8 +31,7 @@ p{
     text-align:center;
     font-size:50px;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   position:relative;
-   top:-200px;
+   
 }
 
 .hidden{
