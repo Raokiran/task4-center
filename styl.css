@@ -1,0 +1,41 @@
+.card{
+
+background-color:blue;
+border:10px solid;
+width:100px;
+height:100px;
+text-align: center;
+border-radius:10px;
+box-shadow :10px 10px 10px rgba(240, 39, 4, 1) ;
+cursor:pointer;
+
+}
+
+h1{
+    font-family: monospace;
+font-size:70px;
+position: relative;
+top:-40px;
+color:white;
+}
+
+.ali{
+    height:550px;
+   align-items: center;
+  justify-content: center;
+display:flex;
+gap:60px;
+}
+
+p{
+    text-align:center;
+    font-size:50px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position:relative;
+   top:-200px;
+}
+
+.hidden{
+    opacity:0;
+}
+

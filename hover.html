@@ -1,0 +1,32 @@
+<html>
+<head><title>task 4</title></head>
+<link rel="stylesheet" href="styl.css">
+ <script>
+    const letter=['A','B','C'];
+function on_card(index){
+document.getElementById("answer").innerHTML=`You Hovered at ${letter[index]}`;
+
+document.querySelectorAll(".card").forEach((card,i)=>{
+if(i!==index){
+    card.classList.add("hidden");
+}
+});
+}
+function off_card(){
+document.getElementById("answer").innerHTML=` `;
+document.querySelectorAll(".card").forEach((card,i)=>{
+    card.classList.remove("hidden");
+});
+
+}
+
+</script>
+<body>
+    <div class="ali">
+    <div class="card" onmouseover="on_card(0)" onmouseleave="off_card()"><h1>A</h1></div>
+    <div class="card" onmouseover="on_card(1)" onmouseleave="off_card()"><h1>B</h1></div>
+    <div class="card" onmouseover="on_card(2)" onmouseleave="off_card()"><h1>C</h1></div>
+    </div>
+<p id="answer"></p>
+</body>
+</html>
